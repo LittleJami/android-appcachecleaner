@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"キャッシュを削除"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"ストレージとキャッシュ"</string>
+    <string name="storage_label" msgid="2522307545547515733">"ストレージ"</string>
+    <string name="allow" msgid="3763244945363657722">"許可"</string>
+    <string name="deny" msgid="7326117222944479942">"許可しない"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"設定"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"ヘルプ"</string>
+    <string name="filter" msgid="9039576690686251462">"フィルタ"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"ストレージを消去"</string>
+
+    <string name="app_name">キャッシュ クリーナー</string>
+    <string name="service_name">キャッシュ クリーナー</string>
+    <string name="tile_name">キャッシュ クリーナー</string>
+    <string name="text_enable_accessibility_title">ユーザー補助サービスを有効にする</string>
+    <string name="text_enable_usage_stats_title">使用状況統計を有効にする</string>
+    <string name="text_clean_cache_left">残りのアプリ</string>
+    <string name="text_clean_cache_finish">キャッシュのクリーンアップが完了しました</string>
+    <string name="btn_open_accessibility">アクセシビリティ設定を開く</string>
+    <string name="btn_open_usage_stats">使用状況統計設定を開く</string>
+    <string name="btn_clean_all_cache">すべてのアプリのキャッシュを削除します</string>
+    <string name="btn_clean_system_cache">システム アプリのキャッシュを削除する</string>
+
+    <string name="btn_exit">アプリを終了</string>
+    <string name="exittip">このアプリを終了しますか?</string>
+    <string name="btn_yes">はい</string>
+    <string name="btn_no">いいえ</string>
+    <string name="btn_clean_user_cache">ユーザー アプリのキャッシュを削除する</string>
+    <string name="btn_close_app">アプリを閉じる</string>
+    <string name="btn_start_accessibility_service">ユーザー補助サービスの開始</string>
+    <string name="btn_stop_accessibility_service">ユーザー補助サービスを停止</string>
+    <string name="btn_add_extra_search_text">追加の検索テキストを追加する</string>
+    <string name="description_apps_all_check">すべてのアプリをチェックする</string>
+    <string name="description_apps_all_uncheck">すべてのアプリのチェックを外します</string>
+
+
+    <string name="text_list_ignored_apps">無視されたアプリ</string>
+</resources>

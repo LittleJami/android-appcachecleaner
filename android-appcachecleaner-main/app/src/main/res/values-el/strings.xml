@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Διαγραφή προσωρινής μνήμης"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Αποθηκευτικός χώρος και κρυφή μνήμη"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Αποθηκευτικός χώρος"</string>
+    <string name="allow" msgid="3763244945363657722">"Αποδοχή"</string>
+    <string name="deny" msgid="7326117222944479942">"Απόρριψη"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Ρυθμίσεις"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Βοήθεια"</string>
+    <string name="filter" msgid="9039576690686251462">"Φίλτρο"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Εκκαθάριση αποθηκευτικού χώρου"</string>
+
+    <string name="app_name">Εργαλείο καθαρισμού προσωρινής μνήμης</string>
+    <string name="service_name">Εργαλείο καθαρισμού προσωρινής μνήμης</string>
+    <string name="tile_name">Εργαλείο καθαρισμού προσωρινής μνήμης</string>
+    <string name="text_enable_accessibility_title">Ενεργοποίηση υπηρεσίας προσβασιμότητας</string>
+    <string name="text_enable_usage_stats_title">Ενεργοποίηση στατιστικών χρήσης</string>
+    <string name="text_clean_cache_left">αριστερές εφαρμογές</string>
+    <string name="text_clean_cache_finish">Ο καθαρισμός της προσωρινής μνήμης ολοκληρώθηκε</string>
+    <string name="btn_open_accessibility">Άνοιγμα ρυθμίσεων προσβασιμότητας</string>
+    <string name="btn_open_usage_stats">Άνοιγμα ρυθμίσεων στατιστικών χρήσης</string>
+    <string name="btn_clean_all_cache">Εκκαθάριση προσωρινής μνήμης όλων των εφαρμογών</string>
+    <string name="btn_clean_system_cache">Εκκαθάριση προσωρινής μνήμης εφαρμογών συστήματος</string>
+
+    <string name="btn_exit">Έξοδος από την εφαρμογή</string>
+    <string name="exittip">Θέλετε να βγείτε από αυτήν την εφαρμογή;</string>
+    <string name="btn_yes">Ναι</string>
+    <string name="btn_no">Όχι</string>
+    <string name="btn_clean_user_cache">Εκκαθάριση προσωρινής μνήμης των εφαρμογών χρήστη</string>
+    <string name="btn_close_app">Κλείσιμο εφαρμογής</string>
+    <string name="btn_start_accessibility_service">Έναρξη υπηρεσίας προσβασιμότητας</string>
+    <string name="btn_stop_accessibility_service">Διακοπή υπηρεσίας προσβασιμότητας</string>
+    <string name="btn_add_extra_search_text">Προσθήκη επιπλέον κειμένου αναζήτησης</string>
+    <string name="description_apps_all_check">Έλεγχος όλων των εφαρμογών</string>
+    <string name="description_apps_all_uncheck">Αποεπιλέξτε όλες τις εφαρμογές</string>
+
+
+    <string name="text_list_ignored_apps">Εφαρμογές που αγνοήθηκαν</string>
+</resources>

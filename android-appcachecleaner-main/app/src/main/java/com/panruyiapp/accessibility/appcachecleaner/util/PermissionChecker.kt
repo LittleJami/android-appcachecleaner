@@ -1,0 +1,94 @@
+package com.panruyiapp.accessibility.appcachecleaner.util
+
+import android.Manifest
+import android.app.AppOpsManager
+import android.content.Context
+import android.content.pm.PackageManager
+import android.os.Build
+import android.provider.Settings
+import android.text.TextUtils
+import androidx.appcompat.app.AppCompatActivity
+import com.panruyiapp.accessibility.appcachecleaner.BuildConfig
+import com.panruyiapp.accessibility.appcachecleaner.service.AppCacheCleanerService
+
+class PermissionChecker {
+
+    companion object {
+        // method to check is the user has permitted the accessibility permission
+        // if not then prompt user to the system's Settings activity
+        @JvmStatic
+        suspend fun checkAccessibilityPermission(context: Context): Boolean {
+            try {
+                val accessibilityEnabled =
+                    Settings.Secure.getInt(
+                        context.contentResolver,
+                        Settings.Secure.ACCESSIBILITY_ENABLED)
+
+                if (accessibilityEnabled != 1) return false
+
+                val accessibilityServiceName = context.packageName + "/" +
+                        AppCacheCleanerService::class.java.name
+
+                val enabledServices =
+                    Settings.Secure.getString(
+                        context.contentResolver,
+                        Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES)
+                    ?: return false
+
+                val stringColonSplitter = TextUtils.SimpleStringSplitter(':')
+                stringColonSplitter.setString(enabledServices)
+                while (stringColonSplitter.hasNext()) {
+                    if (accessibilityServiceName.contentEquals(stringColonSplitter.next()))
+                        return true
+                }
+
+                return false
+            } catch (e: Settings.SettingNotFoundException) {
+                e.printStackTrace()
+            }
+
+            return false
+        }
+
+        @JvmStatic
+        suspend fun checkUsageStatsPermission(context: Context): Boolean {
+            try {
+                val applicationInfo = context.packageManager.getApplicationInfo(context.packageName, 0)
+                val appOpsManager = context.getSystemService(AppCompatActivity.APP_OPS_SERVICE) as AppOpsManager
+                val mode =
+                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q)
+                        appOpsManager.checkOpNoThrow(
+                            AppOpsManager.OPSTR_GET_USAGE_STATS,
+                            applicationInfo.uid, applicationInfo.packageName)
+                    else
+                        appOpsManager.unsafeCheckOpNoThrow(
+                            AppOpsManager.OPSTR_GET_USAGE_STATS,
+                            applicationInfo.uid, applicationInfo.packageName)
+
+                return mode == AppOpsManager.MODE_ALLOWED
+            } catch (e: PackageManager.NameNotFoundException) {
+                e.printStackTrace()
+            }
+
+            return false
+        }
+
+        @JvmStatic
+        suspend fun checkWriteExternalStoragePermission(context: Context): Boolean {
+            return context.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) ==
+                        PackageManager.PERMISSION_GRANTED
+        }
+
+        @JvmStatic
+        suspend fun checkAllRequiredPermissions(context: Context): Boolean {
+            var result = checkAccessibilityPermission(context)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+                result = result and checkUsageStatsPermission(context)
+            if (BuildConfig.DEBUG) {
+                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q)
+                    result = result and checkWriteExternalStoragePermission(context)
+            }
+            return result
+        }
+    }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Kosongkan cache"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Storan amp; cache"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Storan"</string>
+    <string name="allow" msgid="3763244945363657722">"Benarkan"</string>
+    <string name="deny" msgid="7326117222944479942">"Tolak"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Tetapan"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Bantuan"</string>
+    <string name="filter" msgid="9039576690686251462">"Tapis"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Kosongkan storan"</string>
+
+    <string name="app_name">Pembersih Cache</string>
+    <string name="service_name">Pembersih Cache</string>
+    <string name="tile_name">Pembersih Cache</string>
+    <string name="text_enable_accessibility_title">Dayakan Perkhidmatan Kebolehcapaian</string>
+    <string name="text_enable_usage_stats_title">Dayakan Statistik Penggunaan</string>
+    <string name="text_clean_cache_left">apl kiri</string>
+    <string name="text_clean_cache_finish">Cache bersih telah selesai</string>
+    <string name="btn_open_accessibility">Buka Tetapan Kebolehcapaian</string>
+    <string name="btn_open_usage_stats">Buka Tetapan Statistik Penggunaan</string>
+    <string name="btn_clean_all_cache">Bersihkan cache semua apl</string>
+    <string name="btn_clean_system_cache">Bersihkan cache apl sistem</string>
+
+    <string name="btn_exit">Keluar dari Apl</string>
+    <string name="exittip">Adakah anda mahu keluar dari Apl ini?</string>
+    <string name="btn_yes">Ya</string>
+    <string name="btn_no">Tidak</string>
+    <string name="btn_clean_user_cache">Bersihkan cache apl pengguna</string>
+    <string name="btn_close_app">Tutup apl</string>
+    <string name="btn_start_accessibility_service">Mulakan perkhidmatan Kebolehcapaian</string>
+    <string name="btn_stop_accessibility_service">Hentikan perkhidmatan Kebolehcapaian</string>
+    <string name="btn_add_extra_search_text">Tambah teks carian tambahan</string>
+    <string name="description_apps_all_check">Semak semua apl</string>
+    <string name="description_apps_all_uncheck">Nyahtanda semua apl</string>
+
+
+    <string name="text_list_ignored_apps">Apl diabaikan</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"캐시 지우기"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"저장용량 및 캐시"</string>
+    <string name="storage_label" msgid="2522307545547515733">"저장용량"</string>
+    <string name="allow" msgid="3763244945363657722">"허용"</string>
+    <string name="deny" msgid="7326117222944479942">"거부"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"설정"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"도움말"</string>
+    <string name="filter" msgid="9039576690686251462">"필터"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"저장용량 비우기"</string>
+
+    <string name="app_name">캐시 클리너</string>
+    <string name="service_name">캐시 클리너</string>
+    <string name="tile_name">캐시 클리너</string>
+    <string name="text_enable_accessibility_title">접근성 서비스 활성화</string>
+    <string name="text_enable_usage_stats_title">사용 통계 활성화</string>
+    <string name="text_clean_cache_left">앱 남음</string>
+    <string name="text_clean_cache_finish">캐시 정리가 완료되었습니다</string>
+    <string name="btn_open_accessibility">접근성 설정 열기</string>
+    <string name="btn_open_usage_stats">사용 통계 설정 열기</string>
+    <string name="btn_clean_all_cache">모든 앱의 캐시 정리</string>
+    <string name="btn_clean_system_cache">시스템 앱 캐시 정리</string>
+
+    <string name="btn_exit">앱 종료</string>
+    <string name="exittip">이 앱을 종료하시겠습니까?</string>
+    <string name="btn_yes">예</string>
+    <string name="btn_no">아니요</string>
+    <string name="btn_clean_user_cache">사용자 앱 캐시 정리</string>
+    <string name="btn_close_app">앱 닫기</string>
+    <string name="btn_start_accessibility_service">접근성 서비스 시작</string>
+    <string name="btn_stop_accessibility_service">접근성 서비스 중지</string>
+    <string name="btn_add_extra_search_text">추가 검색 텍스트 추가</string>
+    <string name="description_apps_all_check">모든 앱 확인</string>
+    <string name="description_apps_all_uncheck">모든 앱 선택 취소</string>
+
+
+    <string name="text_list_ignored_apps">무시된 앱</string>
+</resources>

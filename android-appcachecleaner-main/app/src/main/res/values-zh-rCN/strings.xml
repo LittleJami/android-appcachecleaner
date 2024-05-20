@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"清除缓存"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"存储和缓存"</string>
+    <string name="storage_label" msgid="2522307545547515733">"存储"</string>
+    <string name="allow" msgid="3763244945363657722">"允许"</string>
+    <string name="deny" msgid="7326117222944479942">"拒绝"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"设置"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"帮助"</string>
+    <string name="filter" msgid="9039576690686251462">"过滤"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"清空存储空间"</string>
+
+    <string name="app_name">缓存清理器</string>
+    <string name="service_name">缓存清理器</string>
+    <string name="tile_name">缓存清理器</string>
+    <string name="text_enable_accessibility_title">启用无障碍服务</string>
+    <string name="text_enable_usage_stats_title">启用使用情况统计</string>
+    <string name="text_clean_cache_left">左侧应用</string>
+    <string name="text_clean_cache_finish">清理缓存已完成</string>
+    <string name="btn_open_accessibility">打开辅助功能设置</string>
+    <string name="btn_open_usage_stats">打开使用情况统计设置</string>
+    <string name="btn_clean_all_cache">清理所有应用程序的缓存</string>
+    <string name="btn_clean_system_cache">清理系统应用程序的缓存</string>
+
+    <string name="btn_exit">退出应用</string>
+    <string name="exittip">您想退出此应用程序吗？</string>
+    <string name="btn_yes">是</string>
+    <string name="btn_no">否</string>
+    <string name="btn_clean_user_cache">清理用户应用程序的缓存</string>
+    <string name="btn_close_app">关闭应用</string>
+    <string name="btn_start_accessibility_service">启动无障碍服务</string>
+    <string name="btn_stop_accessibility_service">停止无障碍服务</string>
+    <string name="btn_add_extra_search_text">添加额外的搜索文本</string>
+    <string name="description_apps_all_check">检查所有应用</string>
+    <string name="description_apps_all_uncheck">取消选中所有应用</string>
+
+    <string name="toast_package_list_item_long_click">按住应用程序图标启动 &lt;应用程序信息&gt;</string>
+    <string name="text_list_ignored_apps">忽略的应用</string>
+</resources>

@@ -1,0 +1,61 @@
+package com.panruyiapp.accessibility.appcachecleaner.ui.fragment
+
+import android.os.Build
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.core.text.HtmlCompat
+import androidx.core.text.method.LinkMovementMethodCompat
+import androidx.fragment.app.Fragment
+import com.panruyiapp.accessibility.appcachecleaner.R
+import com.panruyiapp.accessibility.appcachecleaner.databinding.FragmentHelpBinding
+
+class HelpFragment: Fragment() {
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val binding = FragmentHelpBinding.inflate(inflater, container, false)
+        val view = binding.root
+
+        binding.textHelpAbout.text = HtmlCompat.fromHtml(
+            resources.getString(R.string.help_about),
+            HtmlCompat.FROM_HTML_MODE_COMPACT
+        )
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            binding.textHelpAndroid13AccessibilityPermission.text = HtmlCompat.fromHtml(
+                resources.getString(R.string.help_android13_accessibility_permission),
+                HtmlCompat.FROM_HTML_MODE_COMPACT
+            )
+            binding.textHelpAndroid13AccessibilityPermission.visibility = View.VISIBLE
+        }
+
+        binding.textHelpHowToUse.text = HtmlCompat.fromHtml(
+            resources.getString(R.string.help_how_to_use),
+            HtmlCompat.FROM_HTML_MODE_COMPACT
+        )
+
+        binding.textHelpCustomizedSettingsUI.text = HtmlCompat.fromHtml(
+            resources.getString(R.string.help_customized_settings_ui),
+            HtmlCompat.FROM_HTML_MODE_COMPACT
+        )
+
+
+
+
+        return view
+    }
+
+    override fun onDestroy()
+    {
+        super.onDestroy()
+    }
+
+    companion object {
+        @JvmStatic
+        fun newInstance() = HelpFragment()
+    }
+}

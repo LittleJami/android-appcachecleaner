@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Очиститель кэша</string>
+    <string name="service_name">Очиститель кэша</string>
+    <string name="tile_name">Очиститель кэша</string>
+    <string name="text_enable_accessibility_title">Включить службу спец. возможностей</string>
+    <string name="text_enable_accessibility_message">
+        Для работы приложению <b>Очиститель кэша</b> требуется ваше разрешение.
+        Перейдите в Настройки устройства и предоставьте приложению доступ к <b>Спец. возможностям</b>.
+        \n\n
+        1. Выберите <b>Спец. возможности</b> в Настройках.
+        \n
+        2. Найдите приложение <b>Очиститель кэша</b> и коснитесь его.
+        \n
+        3. Предоставьте разрешение.
+        \n\n
+        <u><b>Декларация для сервисов специальных возможностей:</b></u>
+        \n
+        - Для реализации основных функций данного приложения, таких как: нажатие/клик, прокрутка и др., необходимо использовать Accessibility Services API.
+        \n
+        - Разрешение на специальные возможности требуется для Android 6 и более поздних версий.
+        \n
+        - Это приложение не собирает и/или не передает личные или конфиденциальные данные с использованием специальных возможностей.
+    </string>
+    <string name="text_enable_accessibility_message_api33">
+        Для работы приложению <b>Очиститель кэша</b> требуется ваше разрешение.
+        Перейдите в Настройки устройства и предоставьте приложению доступ к <b>Спец. возможностям</b>.
+        \n\n
+        1. Выберите <b>Спец. возможности</b> в Настройках.
+        \n
+        2. Найдите приложение <b>Очиститель кэша</b> и коснитесь его.
+        \n
+        3. Предоставьте разрешение.
+        \n\n
+        <u><b>Декларация для сервисов специальных возможностей:</b></u>
+        \n
+        - Для реализации основных функций данного приложения, таких как: нажатие/клик, прокрутка и др., необходимо использовать Accessibility Services API.
+        \n
+        - Разрешение на специальные возможности требуется для Android 6 и более поздних версий.
+        \n
+        - Это приложение не собирает и/или не передает личные или конфиденциальные данные с использованием специальных возможностей.
+        \n\n
+        <u><b>Как снять ограничения с настроек:</b></u>
+        \n
+        - Начиная с Андроид 13 доступ к Специальным возможностям ограничен для приложений от сторонних
+        разработчиков. Пожалуйста прочтите главу <b>Внимание ⚠️</b> в меню <b>Помощи</b>.
+    </string>
+    <string name="text_accessibility_description">
+        Приложению "Очиститель кэша" требуется разрешение на использование API Спец. возможностей для реализации основных функций, таких как нажатие/клик, прокрутка и др.
+        Приложение "Очиститель кэша" не собирает и/или не передает личные или конфиденциальные данные с использованием специальных возможностей.
+    </string>
+    <string name="text_enable_usage_stats_title">Включить доступ к Данным об Использовании.</string>
+    <string name="text_enable_usage_stats_message">
+        Для работы приложению <b>Очиститель кэша</b> требуется ваше разрешение.
+        Перейдите в Настройки устройства и предоставьте приложению <b>доступ к Данным об Использовании</b>.
+        \n\n
+        1. Выберите <b>Приложения</b> в Настройках.
+        \n
+        2. Найдите <b>Специальный доступ</b> и коснитесь его.
+        \n
+        3. Найдите <b>Доступ к данным об использовании</b> и коснитесь его.
+        \n
+        4. Найдите приложение <b>Очиститель кэша</b> и коснитесь его.
+        \n
+        5. Предоставьте разрешение.
+        \n\n
+        <u><b>Декларация для доступа к данным об использовании:</b></u>
+        \n
+        - Для реализации основной функций данного приложения: получение размера кэша установленных приложений.
+        \n
+        - Разрешение на данные об использовании требуется для Android 8 и более поздних версий.
+        \n
+        - Это приложение не собирает и/или не передает личные или конфиденциальные данные при использовании Данных об использовании.
+    </string>
+    <string name="text_clean_cache_left">осталось приложений</string>
+    <string name="text_clean_cache_finish">Очистка кэша завершена</string>
+    <string name="text_clean_cache_finish_display_size">Очистка кэша завершена\nОчищено %1$s</string>
+    <string name="text_clean_cache_finish_processing">Очистка кэша завершена\nОбработка…</string>
+    <string name="text_clean_cache_interrupt">Очистка кэша была прервана</string>
+    <string name="text_clean_cache_interrupt_display_size">Очистка кэша была прервана\nОчищено %1$s</string>
+    <string name="text_clean_cache_interrupt_processing">Очистка кэша была прервана\nОбработка…</string>
+    <string name="btn_open_accessibility">Открыть настройки Спец. возможностей</string>
+    <string name="btn_open_usage_stats">Открыть настройки Данные об Использ.</string>
+    <string name="btn_clean_all_cache">Очистка кэша всех приложений</string>
+    <string name="btn_clean_system_cache">Очистка кэша системных приложений</string>
+    <string name="btn_clean_user_cache">Очистка кэша польз. приложений</string>
+    <string name="btn_close_app">Выйти из приложения</string>
+    <string name="btn_start_accessibility_service">Запустить сервис Спец. возможностей</string>
+    <string name="btn_stop_accessibility_service">Остановить сервис Спец. возможностей</string>
+    <string name="btn_add_extra_search_text">Добавить доп. текст для поиска</string>
+    <string name="description_apps_all_check">Отметить все приложения</string>
+    <string name="description_apps_all_uncheck">Снять выделение со всех приложений</string>
+    <string name="text_cache_size_fmt">Кэш: %1$s</string>
+    <string name="toast_package_list_item_long_click">Удерживайте иконку приложения, чтобы открыть настройки &lt;О приложении&gt;</string>
+    <string name="text_list_ignored_apps">Игнор. приложения</string>
+
+    <string name="dialog_extra_search_text_title">Добавить доп. текст для поиска</string>
+    <string name="dialog_extra_search_text_message">%1$s (%2$s)\nвместо \"%3$s\"</string>
+    <string name="dialog_extra_search_text_btn_ok">OK</string>
+    <string name="dialog_extra_search_text_btn_remove">Удалить</string>
+
+    <string name="dialog_filter_min_cache_size_title">Фильтр по размеру кэша</string>
+    <string name="dialog_filter_min_cache_size_message">Введите мин. размер кэша для фильтрации приложений (KB,MB,GB,TB)</string>
+    <string name="toast_error_filter_min_cache_size">Введите мин. размер кэша в KB,MB,GB,TB ИЛИ 0 для сброса настройки по умолчанию</string>
+
+    <string name="dialog_ignore_app_title">Игнорировать приложение</string>
+    <string name="dialog_ignore_app_messages"><![CDATA[
+        <b>Очиститель кэша</b> был прерван системой Андроид в процессе очистки приложения <b>%s</b>.
+        Хотите добавить это приложение в список игнорируемых приложений, чтобы предотвратить его включение в будущие процессы очистки?
+        Вы всегда можете удалить это приложение из списка игнорируемых приложений в настройках.
+    ]]></string>
+
+    <string name="first_boot_title">Прочтите перед использованием</string>
+    <string name="first_boot_message"><![CDATA[
+        <h2>Измененный интерфейс Настроек</h2>
+        <br/>
+        Многие компании и сторонние прошивки дополняют или изменяют стандартый интерфейс Андроида,
+        включая Настройки. Это может вызывать проблемы, потому что приложение <b>Очиститель кэша</b>
+        ищет определенный текст на экране среди кнопок и меню, и если совпадение не было найдено, то
+        приложение ничего не делает.
+    ]]></string>
+    <string name="first_boot_confirm_1">
+        Я подтверждаю, что прочитаю главу <b>Измененный интерфейс Настроек</b> в меню <b>Помощи</b>,
+        перед тем как выполнять какие-либо действия с приложением <b>Очиститель кэша</b>.
+    </string>
+    <string name="first_boot_confirm_2">
+        Я подтверждаю, что в случае если <b>Очиститель кэша</b> не выполнил никаких действий,
+        то обязуюсь выполнить действия, описанные в меню <b>Помощи</b> в главе <b>Измененный интерфейс Настроек</b>,
+        связанные с заданием альтернативного текста для поиска меню <b>Хранилище и кеш</b> или <b>Хранилище</b>,
+        а также заданием альтернативного текста для поиска кнопки <b>Очистить кэш</b>.
+    </string>
+    <string name="first_boot_confirm_3">
+        Я подтверждаю, что в случае если <b>Очиститель кэша</b> не выполнил никаких действий,
+        то обязуюсь сменить сценарий очистки кэша в <b>Настройках</b> со сценария <b>По умолчанию</b>
+        на сценарий <b>Xiaomi MIUI</b> в случае если мой телефон <b>Xiaomi с региональной прошивкой MIUI</b>.
+    </string>
+    <string name="first_boot_confirm_4">
+        Я подтверждаю, что в случае если <b>Очиститель кэша</b> не выполнил никаких действий
+        описанных выше, то я обязуюсь сообщить о своей проблеме по указанному адресу в главе
+        <b>Сообщить об ошибке</b> в меню <b>Помощи</b>.
+    </string>
+
+    <string name="menu_extra_search_text_title">Доп. текст для поиска:</string>
+
+    <string name="help_about"><![CDATA[
+        <h2>О приложении</h2>
+        <br/>
+        Начиная с Андроид 6 (Marshmallow) невозможно очистить кэш всех приложения сразу, так как
+        Google установил данное разрешение только для системых приложений, оставив только одну
+        возможность - открыть вручную информацию о приложении, найти пункт меню
+        <b>&quot;Хранилище и кеш&quot;</b> и нажать кнопку <b>&quot;Очистить кеш&quot;</b>.
+        <br/><br/>
+        Приложение <b>Очиститель кэша</b> запрашивает все установленные пользовательские и
+        системные приложения и заменяет все ручные действия по очистке кеша с помощью сервиса
+        Специальных возможностей.
+    ]]></string>
+
+    <string name="help_android13_accessibility_permission"><![CDATA[
+        <br/>
+        <h2>Внимание ⚠️</h2>
+        <br/>
+        Начиная с Андроид 13 доступ к Специальным возможностям ограничен для приложений от сторонних
+        разработчиков. Выполните шаги, описанные ниже, чтобы приложение <b>Очиститель кэша</b>
+        получило доступ к Специальным возможностям.
+        <br/><br/>
+        <h3>Как снять ограничения с настроек</h3>
+        <br/>
+        Когда вы снимаете ограничения с настроек, вы разрешаете приложениям доступ к конфиденциальной информации.
+        Это подвергает риску ваши персональные данные. Мы рекомендуем снимать ограничения,
+        только если вы доверяете разработчику приложения.
+        <br/><br/>
+        Некоторые добросовестные приложения тоже запрашивают доступ к определенным настройкам.
+        Например, приложение для людей с инвалидностью может попросить вас включить настройки специальных возможностей.
+        Так оно сможет получать доступ к контенту на экране устройства и взаимодействовать с
+        другими приложениями от вашего имени.
+        <br/><br/>
+        1. Нажмите кнопку <b>Открыть настройки приложения</b> ниже
+        <br/>
+        2. Выберите меню <b>Ещё</b> <b>⋮</b> (верхний правый угол)
+        <br/>
+        3. Выберите <b>Разрешить доступ к настройкам</b>
+        <br/>
+        4. Следуйте инструкциям на экране
+        <br/><br/>
+        <b>Источник</b> - https://support.google.com/android/answer/12623953
+    ]]></string>
+
+    <string name="help_how_to_use"><![CDATA[
+        <br/>
+        <h2>Как пользоваться приложением</h2>
+        <br/>
+        1. Нажмите на кнопку очистка кэша <b>Польз. приложений</b>, <b>Системных приложений</b>
+        ИЛИ <b>Всех приложений</b>
+        <br/>
+        2. Разрешите Данные об Использовании для приложения <b>Очиститель кэша</b>, если они требуются
+        <br/>
+        3. Разрешите Спец. возможности для приложения <b>Очиститель кэша</b>, если они требуются
+        <br/>
+        4. Отметьте необходимые приложения в списке (используйте плавающую кнопку, чтобы отметить
+        все приложения в списке или снять выделение со всех приложений)
+        <br/>
+        5. Нажмите на плавающую кнопку <b>Очистить кэш</b>, чтобы запустить процесс очистки кэша
+        <br/>
+        6. Нажмите на <b>наложенную кнопку Спец. возможностей</b>, чтобы прервать процесс очистки кэша ИЛИ
+        ожидайте, пока процесс очистки не будет завершён
+        <br/>
+        7. <i>(опционально)</i> Нажмите <b>Остановить сервис Спец. возможностей</b>, чтобы отключить Спец. возможности
+    ]]></string>
+
+    <string name="help_customized_settings_ui"><![CDATA[
+        <br/>
+        <h2>Измененный интерфейс Настроек</h2>
+        <br/>
+        Многие компании и сторонние прошивки дополняют или изменяют стандартый интерфейс Андроида,
+        включая Настройки. Это может вызывать проблемы, потому что приложение <b>Очиститель кэша</b>
+        ищет определенный текст на экране среди кнопок и меню, и если совпадение не было найдено, то
+        приложение ничего не делает.
+        <br/>
+        <br/>
+        Для решения проблемы очистки кэша проделайте следующие шаги:
+        <br/>
+        <br/>
+        1. Выберите любое приложение и откройте <b>&quot;О Приложении&quot;</b>
+        <br/>
+        2. Запишите альтернативный текст для меню <b>&quot;Хранилище и кеш&quot;</b>
+        <br/>
+        3. Нажмите на меню <b>&quot;Хранилище и кеш&quot;</b>
+        <br/>
+        4. Запишите альтернативный текст для кнопки <b>&quot;Очистить кеш&quot;</b>
+        <br/>
+        5. Откройте приложение <b>Очиститель кэша</b> с нужным языком (в случае необходимости измените
+        язык в Настройках и снова откройте приложение <b>Очиститель кэша</b>)
+        <br/>
+        6. Откройте меню <b>Настройки</b> в правом верхнем углу и найдите секцию <b>Добавить доп. текст для поиска</b>
+        <br/>
+        7. Выберите <b>Очистить кеш</b>, введите альтернативный текст для кнопки <b>&quot;Очистить кеш&quot;</b>
+        в текстовое поле ввода и нажмите <b>&quot;OK&quot;</b>, чтобы сохранить изменения.
+        Для удаления альтернативного текста для кнопки <b>&quot;Очистить кеш&quot;</b> просто
+        удалите весь текст в текстовом поле ввода и нажмите <b>&quot;OK&quot;</b>
+        <br/>
+        8. Выберите <b>Хранилище и кеш</b>, введите альтернативный текст для меню <b>&quot;Хранилище и кеш&quot;</b>
+        в текстовое поле ввода и нажмите <b>&quot;OK&quot;</b>, чтобы сохранить изменения.
+        Для удаления альтернативного текста для меню <b>&quot;Хранилище и кеш&quot;</b> просто
+        удалите весь текст в текстовом поле ввода и нажмите <b>&quot;OK&quot;</b>
+        <br/>
+        <br/>
+        <h4>Смартфоны Xiaomi с региональной прошивкой MIUI должны использовать другой сценарий очистки кэша:</h4>
+        1. Откройте меню <b>Настройки</b> в правом верхнем углу и найдите секцию <b>Другое</b>
+        <br/>
+        2. Нажмите на меню <b>Сценарий очистки кэша</b> и выберите <b>Xiaomi MIUI</b>
+        <br/>
+        <br/>
+        <h4>ВНИМАНИЕ ⚠️: Смартфоны Huawei и Xiaomi часто используют агрессивную оптимизацию батареи,
+        которая может нарушить связь между приложением <b>Очиститель кэша</b> и службой Спец. возможностей,
+        препятствуя их корректной работе. Пожалуйста, следуйте инструкциям ниже:</h4>
+        1. Откройте меню <b>Настройки</b> в правом верхнем углу и найдите раздел <b>Показать доп. кнопки</b>
+        <br/>
+        2. Включите опцию <b>Вкл/Выкл сервис Спец. возм.</b>
+        <br/>
+        3. В следующий раз, когда вы запустите приложение <b>Очиститель кэша</b>, если служба
+        Спец. возможностей работает, остановите её, нажав кнопку <b>Остановить сервис Спец. возможностей</b>.
+        Затем снова включите её, нажав кнопку <b>Запустить сервис Спец. возможностей</b>
+    ]]></string>
+
+    <string name="help_icon_copyright"><![CDATA[
+        <br/>
+        <h2>Авторское право на иконку</h2>
+        <br/>
+        <a href="https://www.flaticon.com/free-icon/broom_2954888>Иконка <b>Метлы</b> была создана Smashicons - Flaticon</a>
+        <br/>
+        <br/>
+        <a href="https://github.com/bmx666/android-appcachecleaner/blob/main/LICENSE_Freepik_icon.pdf">
+        Лицензия Freepik на иконку <b>Метлы</b></a>
+        <br/>
+        <a href="https://github.com/bmx666/android-appcachecleaner/blob/main/LICENSE_Freepik_icon_monochrome.pdf">
+        Лицензия Freepik на монохромную иконку <b>Метлы</b></a>
+    ]]></string>
+
+    <string name="help_submit_bug_report"><![CDATA[
+        <br/>
+        <h2>Отправить отчет об ошибке</h2>
+        <br/>
+        <b><a href="https://github.com/bmx666/android-appcachecleaner/issues">Github</a></b>
+    ]]></string>
+
+    <string name="description_accessibility_overlay_button_interrupt">Прервать процесс очистки кеша</string>
+
+    <!-- Bugs -->
+    <string name="title_bug_322519674">Android 14 ошибка 322519674</string>
+    <string name="message_bug_322519674">
+        Открытие "О приложении" для любого приложения вызывает ошибку в Android 14.
+        После открытия большого количества "О приложении", система Android переходит в неопределенное состояние.
+        Извините, но это сообщение будет отображаться до тех пор, пока Google не исправит ошибку в Android 14.
+    </string>
+
+    <!-- Custom package lists -->
+    <string name="btn_clean_custom_list_cache">Очистка кэша из собств. списка</string>
+    <string name="dialog_title_custom_list_add">Добавить собств. список</string>
+    <string name="dialog_message_custom_list_add">Введите новое имя:</string>
+    <string name="dialog_title_custom_list_edit">Редактировать собств. список</string>
+    <string name="dialog_message_custom_list_edit">Выберите список:</string>
+    <string name="dialog_title_custom_list_remove">Удалить собств. список</string>
+    <string name="dialog_message_custom_list_remove">Выберите список:</string>
+    <string name="dialog_title_custom_list_clean_cache">Очистка кэша из собств. списка</string>
+    <string name="dialog_message_custom_list_clean_cache">Выберите список:</string>
+    <string name="toast_custom_list_add_already_exists">Введенное имя уже существует, выберите другое имя</string>
+    <string name="toast_custom_list_add_list_empty">Список пуст, добавьте хотя бы одно приложение</string>
+    <string name="toast_custom_list_has_been_saved">Список %1$s был сохранен</string>
+    <string name="toast_custom_list_has_been_removed">Список %1$s был удален</string>
+
+    <!-- Preference -->
+    <string name="prefs_ui">Интерфейс</string>
+    <string name="prefs_ui_night_mode">Тёмная тема</string>
+    <string name="prefs_title_filter_min_cache_size">Мин. размер кэша для фильтра приложений</string>
+    <string name="prefs_summary_filter_min_cache_size">Мин. %1$s</string>
+    <string name="prefs_error_convert_filter_min_cache_size">Введите мин. размер кэша в KB,MB,GB,TB ИЛИ 0 для сброса фильтра</string>
+    <string name="prefs_title_filter_hide_disabled_apps">Скрыть отключенные приложения</string>
+    <string name="prefs_title_filter_hide_ignored_apps">Скрыть игнорируемые приложения</string>
+    <string name="prefs_title_filter_show_dialog_to_ignore_app">Показывать диалог об игнор. приложения</string>
+    <string name="prefs_title_filter_list_of_ignored_apps_edit">Список игнорируемых приложений</string>
+    <string name="prefs_summary_filter_list_of_ignored_apps_edit">Редактировать список игнорируемых приложожений</string>
+    <string name="prefs_show_extra_buttons">Показать доп. кнопки</string>
+    <string name="prefs_title_show_button_start_stop_service">Вкл/Выкл сервис Спец. возм.</string>
+    <string name="prefs_summary_show_button_start_stop_service">Для некоторых смартфонов необходимо вручную запускать или останавливать службу специальных возможностей</string>
+    <string name="prefs_title_show_button_close_app">Выйти из приложения</string>
+    <string name="prefs_summary_show_button_close_app">Для некоторых смартфонов вам необходимо вручную остановить службу специальных возможностей и закрыть приложение</string>
+    <string name="prefs_extra_actions">Доп. действия</string>
+    <string name="prefs_title_extra_action_stop_service">Автомат. выкл. сервис Спец. возм.</string>
+    <string name="prefs_summary_extra_action_stop_service">Автоматически выключать службу специальных возможностей после очистки кэша</string>
+    <string name="prefs_title_extra_action_close_app">Автомат. выйти из приложения</string>
+    <string name="prefs_summary_extra_action_close_app">Автоматически закрывать приложение после очистки кэша</string>
+    <string name="prefs_custom_lists">Собств. списки приложений</string>
+    <string name="prefs_title_custom_list_add">Добавить</string>
+    <string name="prefs_summary_custom_list_add">Добавить новый собств. список приложений</string>
+    <string name="prefs_title_custom_list_edit">Редактировать</string>
+    <string name="prefs_summary_custom_list_edit">Редактировать существующий собств. список приложений</string>
+    <string name="prefs_title_custom_list_remove">Удалить</string>
+    <string name="prefs_summary_custom_list_remove">Удалить существующий собств. список приложений</string>
+    <string name="prefs_other">Другое</string>
+    <string name="prefs_title_delay_for_next_app_timeout">Задержка между приложениями - %ds</string>
+    <string name="prefs_summary_delay_for_next_app_timeout">Для старых смартфонов рекомендуется увеличить время ожидания между приложениями, так как система Android может вызывать прерывания</string>
+    <string name="prefs_title_max_wait_app_timeout">Макс. время ожидания на прил. - %dc</string>
+    <string name="prefs_summary_max_wait_app_timeout">Для старых смартфонов вам необходимо увеличить время ожидания на каждое приложение, т.к. вычисление кэша требует больше времени</string>
+    <string name="prefs_title_max_wait_clear_cache_btn_timeout">Макс. время ожидания кнопки "Очистить кэш" - %dc</string>
+    <string name="prefs_summary_max_wait_clear_cache_btn_timeout">Для старых смартфонов вам необходимо увеличить время ожидания, т.к. вычисление кэша требует больше времени</string>
+    <string name="prefs_title_scenario">Сценарий очистки кэша</string>
+    <string-array name="settings_scenario_entries">
+        <item>По умолчанию</item>
+        <item>Xiaomi MIUI</item>
+    </string-array>
+
+    <!-- Snackbar -->
+    <string name="snackbar_processing">Идёт обработка, пожалуйста подождите…</string>
+
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Очистить кеш"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Хранилище и кеш"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Хранилище"</string>
+    <string name="allow" msgid="3763244945363657722">"Разрешить"</string>
+    <string name="deny" msgid="7326117222944479942">"Отклонить"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Настройки"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Справка"</string>
+    <string name="filter" msgid="9039576690686251462">"Фильтр"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Очистить хранилище"</string>
+
+
+    <string name="btn_exit">Выйти из приложения</string>
+    <string name="exittip">Вы хотите выйти из этого приложения?</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+</resources>

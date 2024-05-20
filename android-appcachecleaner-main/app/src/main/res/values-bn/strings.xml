@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"ক্যাশে সাফ করুন"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"স্টোরেজ ও ক্যাশে"</string>
+    <string name="storage_label" msgid="2522307545547515733">"স্টোরেজ"</string>
+    <string name="allow" msgid="3763244945363657722">"অনুমতি দিন"</string>
+    <string name="deny" msgid="7326117222944479942">"অস্বীকার করুন"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"সেটিংস"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"সহায়তা"</string>
+    <string name="filter" msgid="9039576690686251462">"ফিল্টার"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"স্টোরেজ সাফ করুন"</string>
+
+    <string name="app_name">ক্যাশে ক্লিনার</string>
+    <string name = "service_name">ক্যাশ ক্লিনার</string>
+    <string name="tile_name">ক্যাশে ক্লিনার</string>
+    <string name="text_enable_accessibility_title">অ্যাক্সেসিবিলিটি সার্ভিস চালু করুন</string>
+    <string name="text_enable_usage_stats_title">ব্যবহারের পরিসংখ্যান সক্ষম করুন</string>
+    <string name="text_clean_cache_left">বাম অ্যাপস</string>
+    <string name = "text_clean_cache_finish"> ক্যাশে পরিষ্কার করা শেষ হয়েছে</string>
+    <string name="btn_open_accessibility">অ্যাক্সেসিবিলিটি সেটিংস খুলুন</string>
+    <string name="btn_open_usage_stats">ব্যবহারের পরিসংখ্যান সেটিংস খুলুন</string>
+    <string name = "btn_clean_all_cache">সব অ্যাপের ক্যাশে পরিষ্কার করুন</string>
+    <string name="btn_clean_system_cache">সিস্টেম অ্যাপের ক্যাশে পরিষ্কার করুন</string>
+
+    <string name="btn_exit">অ্যাপ থেকে প্রস্থান করুন</string>
+    <string name="exittip">আপনি কি এই অ্যাপ থেকে বেরিয়ে আসতে চান?</string>
+    <string name="btn_yes">হ্যাঁ</string>
+    <string name = "btn_no"> না</string>
+    <string name="btn_clean_user_cache">ব্যবহারকারী অ্যাপের ক্যাশে পরিষ্কার করুন</string>
+    <string name="btn_close_app">অ্যাপ বন্ধ করুন</string>
+    <string name="btn_start_accessibility_service">অ্যাক্সেসিবিলিটি সার্ভিস শুরু করুন</string>
+    <string name="btn_stop_accessibility_service">অ্যাক্সেসিবিলিটি সার্ভিস বন্ধ করুন</string>
+    <string name="btn_add_extra_search_text">অতিরিক্ত অনুসন্ধান পাঠ যোগ করুন</string>
+    <string name="description_apps_all_check">সমস্ত অ্যাপ চেক করুন</string>
+    <string name="description_apps_all_uncheck">সমস্ত অ্যাপস মুক্ত করুন</string>
+
+
+    <string name="text_list_ignored_apps">উপেক্ষিত অ্যাপস</string>
+</resources>

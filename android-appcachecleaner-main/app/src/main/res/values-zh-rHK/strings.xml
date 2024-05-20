@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"清除快取"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"儲存空間與快取空間"</string>
+    <string name="storage_label" msgid="2522307545547515733">"儲存空間"</string>
+    <string name="allow" msgid="3763244945363657722">"允許"</string>
+    <string name="deny" msgid="7326117222944479942">"拒絕"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"設定"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"說明"</string>
+    <string name="filter" msgid="9039576690686251462">"篩選"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"清除儲存空間"</string>
+
+    <string name="app_name">快取清理器</string>
+    <string name="service_name">快取清理器</string>
+    <string name="tile_name">快取清理器</string>
+    <string name="text_enable_accessibility_title">啟用無障礙服務</string>
+    <string name="text_enable_usage_stats_title">啟用使用統計</string>
+    <string name="text_clean_cache_left">左側套用</string>
+    <string name="text_clean_cache_finish">清理快取已完成</string>
+    <string name="btn_open_accessibility">開啟輔助使用設定</string>
+    <string name="btn_open_usage_stats">開啟使用情況統計設定</string>
+    <string name="btn_clean_all_cache">清理所有應用程式的快取</string>
+    <string name="btn_clean_system_cache">清理系統應用程式的快取</string>
+
+    <string name="btn_exit">退出應用程式</string>
+    <string name="exittip">您想退出此應用程式嗎？</string>
+    <string name="btn_yes">是</string>
+    <string name="btn_no">否</string>
+    <string name="btn_clean_user_cache">清理使用者應用程式的快取</string>
+    <string name="btn_close_app">關閉應用程式</string>
+    <string name="btn_start_accessibility_service">啟動無障礙服務</string>
+    <string name="btn_stop_accessibility_service">停止無障礙服務</string>
+    <string name="btn_add_extra_search_text">新增額外的搜尋文字</string>
+    <string name="description_apps_all_check">檢查所有應用程式</string>
+    <string name="description_apps_all_uncheck">取消選取所有應用程式</string>
+
+
+    <string name="text_list_ignored_apps">忽略的應用程式</string>
+</resources>

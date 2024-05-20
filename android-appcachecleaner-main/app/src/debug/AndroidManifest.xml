@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29"/>
+
+    <application
+        android:label="@string/debug_app_name"
+        tools:replace="android:label">
+        <service
+            android:name=".service.AppCacheCleanerService"
+            android:label="@string/debug_service_name"
+            tools:replace="android:label"/>
+    </application>
+</manifest>

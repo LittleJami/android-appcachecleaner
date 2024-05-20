@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Limpiador de Caché</string>
+    <string name="service_name">Limpiador de Caché</string>
+    <string name="tile_name">Limpiador de Caché</string>
+    <string name="text_clean_cache_left">Aplicaciones restantes</string>
+    <string name="text_clean_cache_finish">La limpieza de caché finalizó</string>
+    <string name="text_clean_cache_finish_display_size">La limpieza de caché finalizó\nSe limpió %1$s</string>
+    <string name="text_clean_cache_finish_processing">La limpieza de caché finalizó\nProcesando…</string>
+    <string name="text_clean_cache_interrupt">Se interrumpió la limpieza de caché</string>
+    <string name="text_clean_cache_interrupt_display_size">Se interrumpió la limpieza de caché\nSe limpió %1$s</string>
+    <string name="text_clean_cache_interrupt_processing">Se interrumpió la limpieza de caché\nProcesando…</string>
+    <string name="btn_open_accessibility">Abrir configuración de accesibilidad</string>
+    <string name="btn_open_usage_stats">Abrir configuración de estadísticas de uso</string>
+    <string name="btn_clean_all_cache">Limpiar caché de todas las aplicaciones</string>
+    <string name="btn_clean_system_cache">Limpiar caché de aplicaciones del sistema</string>
+    <string name="btn_clean_user_cache">Limpiar caché de aplicaciones de usuario</string>
+    <string name="btn_close_app">Cerrar la aplicación</string>
+    <string name="btn_start_accessibility_service">Iniciar servicio de Accesibilidad</string>
+    <string name="btn_stop_accessibility_service">Detener servicio de Accesibilidad</string>
+    <string name="btn_add_extra_search_text">Agregar texto de búsqueda extra</string>
+    <string name="description_apps_all_check">Marcar todas las aplicaciones</string>
+    <string name="description_apps_all_uncheck">Desmarque todas las aplicaciones</string>
+    <string name="text_cache_size_fmt">Caché: %1$s</string>
+
+    <string name="dialog_extra_search_text_title">Agregar texto de búsqueda extra</string>
+    <string name="dialog_extra_search_text_message">%1$s (%2$s)\nen lugar de \"%3$s\"</string>
+    <string name="dialog_extra_search_text_btn_ok">Listo</string>
+    <string name="dialog_extra_search_text_btn_remove">Quitar</string>
+
+    <string name="menu_extra_search_text_title">Texto de búsqueda extra para:</string>
+
+    <string name="first_boot_title">Por favor, lea antes de usar</string>
+    <string name="first_boot_message"><![CDATA[
+        <h2>Interfaz de Configuración Personalizada</h2>
+        <br/>
+        Muchas empresas o ROMs de Android añaden o cambian la interfaz de usuario predeterminada de Android, incluyendo Configuraciones.
+        Esto puede causar un problema porque la aplicación <b>Cache Cleaner</b> busca un texto específico
+        y si no coincide, la aplicación no hace nada.
+    ]]></string>
+    <string name="first_boot_confirm_1">
+        Confirmo que leeré el capítulo <b>Interfaz de Configuración Personalizada</b> en el menú <b>Ayuda</b>,
+        antes de realizar cualquier acción con la aplicación <b>Cache Cleaner</b>.
+    </string>
+    <string name="first_boot_confirm_2">
+        Confirmo que si la aplicación <b>Cache Cleaner</b> no realiza ninguna acción,
+        emprenderé las acciones descritas en el menú <b>Ayuda</b> en el capítulo <b>Interfaz de Configuración Personalizada</b>,
+        relacionadas con la configuración de texto alternativo para buscar en el menú <b>Almacenamiento y Cache</b> o <b>Almacenamiento</b>,
+        así como la configuración de texto alternativo para buscar el botón <b>Limpiar Cache</b>.
+    </string>
+    <string name="first_boot_confirm_3">
+        Confirmo que si la aplicación <b>Cache Cleaner</b> no realiza ninguna acción,
+        cambiaré el escenario de limpieza de caché en las <b>Configuraciones</b> del escenario <b>Por Defecto</b>
+        al escenario <b>Xiaomi MIUI</b> si mi teléfono es un <b>Xiaomi con firmware MIUI regional específico</b>.
+    </string>
+    <string name="first_boot_confirm_4">
+        Confirmo que si la aplicación <b>Cache Cleaner</b> no realiza ninguna de las acciones descritas anteriormente,
+        estoy obligado a informar mi problema en la dirección especificada en el capítulo
+        <b>Enviar un informe de error</b> en el menú <b>Ayuda</b>.
+    </string>
+
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Borrar caché"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Almacenamiento y caché"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Almacenamiento"</string>
+    <string name="allow" msgid="3763244945363657722">"Permitir"</string>
+    <string name="deny" msgid="7326117222944479942">"Denegar"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Ajustes"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Ayuda"</string>
+    <string name="filter" msgid="9039576690686251462">"Filtrar"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Borrar almacenamiento"</string>
+
+
+
+    <string name="text_enable_accessibility_title">Habilitar servicio de accesibilidad</string>
+    <string name="text_enable_usage_stats_title">Habilitar estadísticas de uso</string>
+
+    <string name="btn_exit">Salir de la aplicación</string>
+    <string name="exittip">¿Quieres salir de esta aplicación?</string>
+    <string name="btn_yes">Sí</string>
+    <string name="btn_no">No</string>
+
+
+    <string name="text_list_ignored_apps">Aplicaciones ignoradas</string>
+</resources>

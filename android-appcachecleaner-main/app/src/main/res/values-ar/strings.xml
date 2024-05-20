@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"محو ذاكرة التخزين المؤقت"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"مساحة التخزين وذاكرة التخزين المؤقت"</string>
+    <string name="storage_label" msgid="2522307545547515733">"التخزين"</string>
+    <string name="allow" msgid="3763244945363657722">"سماح"</string>
+    <string name="deny" msgid="7326117222944479942">"رفض"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"الإعدادات"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"مساعدة"</string>
+    <string name="filter" msgid="9039576690686251462">"تصفية"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"محو مساحة التخزين"</string>
+
+    <string name="app_name">منظف ذاكرة التخزين المؤقت</string>
+    <string name="service_name">منظف ذاكرة التخزين المؤقت</string>
+    <string name="tile_name">منظف ذاكرة التخزين المؤقت</string>
+    <string name="text_enable_accessibility_title">تمكين خدمة إمكانية الوصول</string>
+    <string name="text_enable_usage_stats_title">تمكين إحصائيات الاستخدام</string>
+    <string name="text_clean_cache_left">التطبيقات اليسرى</string>
+    <string name="text_clean_cache_finish">تم الانتهاء من تنظيف ذاكرة التخزين المؤقت</string>
+    <string name="btn_open_accessibility">افتح إعدادات إمكانية الوصول</string>
+    <string name="btn_open_usage_stats">افتح إعدادات إحصائيات الاستخدام</string>
+    <string name="btn_clean_all_cache">مسح ذاكرة التخزين المؤقت لجميع التطبيقات</string>
+    <string name="btn_clean_system_cache">تنظيف ذاكرة التخزين المؤقت لتطبيقات النظام</string>
+
+    <string name="btn_exit">الخروج من التطبيق</string>
+    <string name="exittip">هل تريد الخروج من هذا التطبيق؟</string>
+    <string name="btn_yes">نعم</string>
+    <string name="btn_no">لا</string>
+    <string name="btn_clean_user_cache">تنظيف ذاكرة التخزين المؤقت لتطبيقات المستخدم</string>
+    <string name="btn_close_app">إغلاق التطبيق</string>
+    <string name="btn_start_accessibility_service">بدء تشغيل خدمة إمكانية الوصول</string>
+    <string name="btn_stop_accessibility_service">أوقف خدمة إمكانية الوصول</string>
+    <string name="btn_add_extra_search_text">أضف نص بحث إضافي</string>
+    <string name="description_apps_all_check">التحقق من جميع التطبيقات</string>
+    <string name="description_apps_all_uncheck">قم بإلغاء تحديد جميع التطبيقات</string>
+
+
+    <string name="text_list_ignored_apps">التطبيقات التي تم تجاهلها</string>
+</resources>

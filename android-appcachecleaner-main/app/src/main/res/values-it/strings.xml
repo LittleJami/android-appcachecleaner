@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Svuota cache"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Spazio di archiviazione e cache"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Spazio di archiviazione"</string>
+    <string name="allow" msgid="3763244945363657722">"Consenti"</string>
+    <string name="deny" msgid="7326117222944479942">"Rifiuta"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Impostazioni"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Guida"</string>
+    <string name="filter" msgid="9039576690686251462">"Filtra"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Cancella dati archiviati"</string>
+
+
+    <string name="app_name">Pulizia cache</string>
+    <string name="service_name">Pulizia cache</string>
+    <string name="tile_name">Pulizia cache</string>
+    <string name="text_enable_accessibility_title">Abilita il servizio di accessibilità</string>
+    <string name="text_enable_usage_stats_title">Abilita statistiche di utilizzo</string>
+    <string name="text_clean_cache_left">app lasciate</string>
+    <string name="text_clean_cache_finish">La pulizia della cache è stata completata</string>
+    <string name="btn_open_accessibility">Apri le impostazioni di accessibilità</string>
+    <string name="btn_open_usage_stats">Apri le impostazioni delle statistiche di utilizzo</string>
+    <string name="btn_clean_all_cache">Pulisci la cache di tutte le app</string>
+    <string name="btn_clean_system_cache">Pulisci la cache delle app di sistema</string>
+
+    <string name="btn_exit">Esci dall\'app</string>
+    <string name="exittip">Vuoi uscire da questa app?</string>
+    <string name="btn_yes">Sì</string>
+    <string name="btn_no">No</string>
+    <string name="btn_clean_user_cache">Pulisci la cache delle app utente</string>
+    <string name="btn_close_app">Chiudi l\'app</string>
+    <string name="btn_start_accessibility_service">Avvia il servizio di accessibilità</string>
+    <string name="btn_stop_accessibility_service">Interrompi il servizio di accessibilità</string>
+    <string name="btn_add_extra_search_text">Aggiungi testo di ricerca aggiuntivo</string>
+    <string name="description_apps_all_check">Controlla tutte le app</string>
+    <string name="description_apps_all_uncheck">Deseleziona tutte le app</string>
+
+
+    <string name="text_list_ignored_apps">App ignorate</string>
+</resources>

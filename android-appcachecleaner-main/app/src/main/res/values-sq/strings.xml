@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Pastro memorien specifike"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Hapësira ruajtëse dhe memoria specifike"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Hapësira ruajtëse"</string>
+    <string name="allow" msgid="3763244945363657722">"Lejo"</string>
+    <string name="deny" msgid="7326117222944479942">"Refuzo"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Cilësimet"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Ndihma"</string>
+    <string name="filter" msgid="9039576690686251462">"Filtro"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Pastro hapësirën ruajtëse"</string>
+</resources>

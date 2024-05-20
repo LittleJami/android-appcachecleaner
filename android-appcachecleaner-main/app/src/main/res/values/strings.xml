@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admob_app_id">ca-app-pub-1644231465796320~8894962059</string>
+    <string name="admob_banner_id">ca-app-pub-1644231465796320/2811935289</string>
+
+    <string  name="app_name">Cache Cleaner</string>
+    <string name="service_name">Cache Cleaner</string>
+    <string  name="tile_name">Cache Cleaner</string>
+    <string  name="text_enable_accessibility_title">Enable Accessibility Service</string>
+    <string translatable="false" name="text_enable_accessibility_message">
+        To functional properly, <b>Cache Cleaner</b> needs your permission.
+        Go to Settings to allow permission for <b>Accessibility</b>.
+        \n\n
+        1. Go to <b>Accessibility</b> in Settings.
+        \n
+        2. Find <b>Cache Cleaner</b> and tap on it.
+        \n
+        3. Grant permission.
+        \n\n
+        <u><b>Accessibility services declaration:</b></u>
+        \n
+        - This application requires the Accessibility Services API to implement its core functions, such as performing clicks, swipes and other core functions.
+        \n
+        - The Accessibility permission is required for Android 6 and above.
+        \n
+        - This application does not collect and/or share personal or sensitive data using the Accessibility capabilities.
+    </string>
+    <string translatable="false" name="text_enable_accessibility_message_api33">
+        To functional properly, <b>Cache Cleaner</b> needs your permission.
+        Go to Settings to allow permission for <b>Accessibility</b>.
+        \n\n
+        1. Go to <b>Accessibility</b> in Settings.
+        \n
+        2. Find <b>Cache Cleaner</b> and tap on it.
+        \n
+        3. Grant permission.
+        \n\n
+        <u><b>Accessibility services declaration:</b></u>
+        \n
+        - This application requires the Accessibility Services API to implement its core functions, such as performing clicks, swipes and other core functions.
+        \n
+        - The Accessibility permission is required for Android 6 and above.
+        \n
+        - This application does not collect and/or share personal or sensitive data using the Accessibility capabilities.
+        \n\n
+        <u><b>Allow restricted settings:</b></u>
+        \n
+        - Since Android 13 Accessibility APIs is restricted for 3rd party apps. Please read the
+        <b>Warning ⚠️</b> paragraph in the <b>Help</b> menu.
+    </string>
+    <string translatable="false" name="text_accessibility_description">
+        "Cache Cleaner" requires the Accessibility Services API to implement its core functions, such as performing clicks, swipes and other core functions.
+        "Cache Cleaner" does not collect and/or share personal or sensitive data using the Accessibility capabilities.
+    </string>
+    <string  name="text_enable_usage_stats_title">Enable Usage Stats</string>
+    <string translatable="false" name="text_enable_usage_stats_message">
+        To functional properly, <b>Cache Cleaner</b> needs your permission. Go to Settings to allow permission for Usage Stats.
+        \n\n
+        1. Go to <b>Apps</b> in Settings.
+        \n
+        2. Find <b>Special app access</b> and tap on it.
+        \n
+        3. Find <b>Usage access</b> and tap on it.
+        \n
+        4. Find <b>Cache Cleaner</b> and tap on it.
+        \n
+        5. Grant permission.
+        \n\n
+        <u><b>Usage stats declaration:</b></u>
+        \n
+        - This application requires the Usage stats to implement its core function, such as get cache size of installed applications.
+        \n
+        - The Usage stats permission is required for Android 8 and above.
+        \n
+        - This application does not collect and/or share personal or sensitive data using the Usage stats.
+    </string>
+    <string  name="text_clean_cache_left">left apps</string>
+    <string name="text_clean_cache_finish">Clean cache was finished</string>
+    <string translatable="false" name="text_clean_cache_finish_display_size">Clean cache was finished\nCleaned up %1$s</string>
+    <string translatable="false" name="text_clean_cache_finish_processing">Clean cache was finished\nProcessing…</string>
+    <string  name="text_clean_cache_interrupt">Clean cache was interrupted</string>
+    <string translatable="false" name="text_clean_cache_interrupt_display_size">Clean cache was interrupted\nCleaned up %1$s</string>
+    <string translatable="false" name="text_clean_cache_interrupt_processing">Clean cache was interrupted\nProcessing…</string>
+    <string  name="btn_open_accessibility">Open Accessibility Settings</string>
+    <string  name="btn_open_usage_stats">Open Usage Stats Settings</string>
+    <string  name="btn_clean_all_cache">Clean cache of all apps</string>
+    <string  name="btn_clean_system_cache">Clean cache of system apps</string>
+
+    <string  name="btn_exit">Exit App</string>
+    <string  name="exittip">Do you want to exit this App?</string>
+    <string  name="btn_yes">Yes</string>
+    <string  name="btn_no">No</string>
+
+    <string  name="btn_clean_user_cache">Clean cache of user apps</string>
+    <string  name="btn_close_app">Close app</string>
+    <string  name="btn_start_accessibility_service">Start Accessibility service</string>
+    <string  name="btn_stop_accessibility_service">Stop Accessibility service</string>
+    <string name="btn_add_extra_search_text">Add extra search text</string>
+    <string  name="description_apps_all_check">Check all apps</string>
+    <string  name="description_apps_all_uncheck">Uncheck all apps</string>
+    <string translatable="false" name="text_cache_size_fmt">Cache: %1$s</string>
+    <string  name="toast_package_list_item_long_click">Hold the app icon to launch &lt;App Info&gt;</string>
+    <string  name="text_list_ignored_apps">Ignored apps</string>
+
+    <string translatable="false" name="dialog_extra_search_text_title">Add extra search text</string>
+    <string translatable="false" name="dialog_extra_search_text_message">%1$s (%2$s)\ninstead of \"%3$s\"</string>
+    <string translatable="false" name="dialog_extra_search_text_btn_ok">OK</string>
+    <string translatable="false" name="dialog_extra_search_text_btn_remove">Remove</string>
+
+    <string translatable="false" name="dialog_filter_min_cache_size_title">Filter by cache size</string>
+    <string translatable="false" name="dialog_filter_min_cache_size_message">Enter the min. cache size for application filtering (KB,MB,GB,TB)</string>
+    <string translatable="false" name="toast_error_filter_min_cache_size">Please enter min. cache size in KB,MB,GB,TB OR 0 to reset default</string>
+
+    <string translatable="false" name="dialog_ignore_app_title">Ignore app</string>
+    <string translatable="false" name="dialog_ignore_app_messages"><![CDATA[
+        <b>Cache Cleaner</b> was interrupted by the Android System while cleaning the <b>%s</b> app.
+        Would you like to add this app to the list of ignored apps to prevent it from being included in future cleaning processes?
+        You can always remove this app from the list of ignored apps in the Settings.
+    ]]></string>
+
+    <string translatable="false" name="first_boot_title">Please read before using</string>
+    <string translatable="false" name="first_boot_message"><![CDATA[
+        <h2>Customized Settings UI</h2>
+        <br/>
+        Many companies or Android ROMs add or change default Android UI, including Settings.
+        This can cause an issue because the <b>Cache Cleaner</b> app is looking for specific text
+        and if it does not match, the app does nothing.
+    ]]></string>
+    <string translatable="false" name="first_boot_confirm_1">
+        I confirm that I will read the chapter <b>Customized Settings UI</b> in the <b>Help</b> menu,
+        before performing any actions with the <b>Cache Cleaner</b> app.
+    </string>
+    <string translatable="false" name="first_boot_confirm_2">
+        I confirm that if the <b>Cache Cleaner</b> does not perform any actions,
+        I will undertake the actions described in the <b>Help</b> menu in the chapter <b>Customized Settings UI</b>,
+        related to setting alternative text for searching the <b>Storage and Cache</b> or <b>Storage</b> menu,
+        as well as setting alternative text for searching the <b>Clear Cache</b> button.
+    </string>
+    <string translatable="false" name="first_boot_confirm_3">
+        I confirm that if the <b>Cache Cleaner</b> does not perform any actions,
+        I will change the cache clearing scenario in the <b>Settings</b> from the <b>Default</b> scenario
+        to the <b>Xiaomi MIUI</b> scenario if my phone is a <b>Xiaomi with specific regional MIUI firmware</b>.
+    </string>
+    <string translatable="false" name="first_boot_confirm_4">
+        I confirm that if the <b>Cache Cleaner</b> does not perform any of the above-described actions,
+        I am obligated to report my problem at the address specified in the chapter
+        <b>Submit a bug report</b> in the <b>Help</b> menu.
+    </string>
+
+    <string translatable="false" name="menu_extra_search_text_title">Extra search text for:</string>
+
+    <string translatable="false" name="help_about"><![CDATA[
+        <h2>About app</h2>
+        <br/>
+        Since Android 6 (Marshmallow) it is no longer possible to clear cache of all apps at same
+        time and Google has moved this permission to system apps only. There is only one possible
+        way left - open manually info about application and find specific
+        <b>&quot;Storage&quot;</b> menu and then press
+        <b>&quot;Clean cache&quot;</b> button.
+        <br/><br/>
+        <b>Cache Cleaner</b> app can request all installed user and system apps and it
+        replaces all manual actions related to clean cache using Accessibility service.
+    ]]></string>
+
+    <string translatable="false" name="help_android13_accessibility_permission"><![CDATA[
+        <br/>
+        <h2>Warning ⚠️</h2>
+        <br/>
+        Since Android 13 Accessibility APIs is restricted for 3rd party apps.
+        Please follow the steps below to enable Accessibility for <b>Cache Cleaner</b> app.
+        <br/><br/>
+        <h3>Allow restricted settings</h3>
+        <br/>
+        When you enable restricted settings, you allow apps to get access to sensitive info that
+        could put your personal data at risk. We don’t recommend that you allow restricted settings
+        unless you trust the app developer.
+        <br/><br/>
+        Some legitimate apps might ask you to enable restricted settings. For example, an app that’s
+        designed to support people with disabilities might ask you to turn on accessibility settings.
+        With access to accessibility settings, the app can read content on your screen and interact
+        with apps on your behalf.
+        <br/><br/>
+        1. Click <b>Open App Settings</b> button below
+        <br/>
+        2. Tap menu <b>More</b> <b>⋮</b> (top right corner)
+        <br/>
+        3. Tap <b>Allow restricted settings</b>
+        <br/>
+        4. Follow the on-screen instructions
+        <br/><br/>
+        <b>Source</b> - https://support.google.com/android/answer/12623953
+    ]]></string>
+
+    <string translatable="false" name="help_how_to_use"><![CDATA[
+        <br/>
+        <h2>How to use</h2>
+        <br/>
+        1. Click button clean cache of <b>User Apps</b>, <b>System Apps</b> OR <b>All Apps</b>
+        <br/>
+        2. Enable Usage Stats support for <b>Cache Cleaner</b> app if it is required
+        <br/>
+        3. Enable Accessibility support for <b>Cache Cleaner</b> app if it is required
+        <br/>
+        4. Check required apps in list (use floating button to check/uncheck all apps)
+        <br/>
+        5. Press <b>Clean Cache floating button</b> to run cache clean process
+        <br/>
+        6. Press <b>Accessibility overlay button</b> to interrupt process OR wait until process will be finished
+        <br/>
+        7. <i>(optional)</i> Press <b>Stop Accessibility service</b> to disable Accessibility service
+    ]]></string>
+
+    <string translatable="false" name="help_customized_settings_ui"><![CDATA[
+        <br/>
+        <h2>Customized Settings UI</h2>
+        <br/>
+        Many companies or Android ROMs add or change default Android UI, including Settings.
+        This can cause an issue because the <b>Cache Cleaner</b> app is looking for specific text
+        and if it does not match, the app does nothing.
+        <br/>
+        <br/>
+        Please follow the steps below to resolve clear cache issue:
+        <br/>
+        <br/>
+        1. Select any app and go to <b>&quot;App Info&quot;</b>
+        <br/>
+        2. Write down text for <b>&quot;Storage&quot;</b> menu
+        <br/>
+        3. Go to <b>&quot;Storage&quot;</b> menu
+        <br/>
+        4. Write down text for <b>&quot;Clear Cache&quot;</b> button
+        <br/>
+        5. Open <b>Cache Cleaner</b> app with specific locale (change on required locale in Settings
+        and go back into <b>Cache Cleaner</b> app)
+        <br/>
+        6. Open <b>Settings</b> menu in the top right corner and find section <b>Add Extra Search Text</b>
+        <br/>
+        7. Tap on <b>Clear Cache</b>, enter the custom search text for <b>&quot;Clear Cache&quot; button&quot;</b>
+        in input field and press <b>&quot;OK&quot;</b> to save it. To remove custom search text
+        for <b>&quot;Clear Cache&quot; button&quot;</b> just erase a whole text in input field and press
+        <b>&quot;OK&quot;</b>
+        <br/>
+        8. Tap on <b>Storage</b>, enter the custom search text for <b>&quot;Storage&quot; menu&quot;</b>
+        in input field and press <b>&quot;OK&quot;</b> to save it. To remove custom search text
+        for <b>&quot;Storage&quot; menu&quot;</b> just erase a whole text in input field and press
+        <b>&quot;OK&quot;</b>
+        <br/>
+        <br/>
+        <h4>Xiaomi smartphones with specific regional MIUI firmware must use the different clear cache scenario:</h4>
+        1. Open <b>Settings</b> menu in the top right corner and find section <b>Other</b>
+        <br/>
+        2. Click <b>Clear cache scenario</b> and select <b>Xiaomi MIUI</b>
+        <br/>
+        <br/>
+        <h4>ATTENTION ⚠️: Huawei and Xiaomi smartphones often use aggressive battery optimization that
+        can disrupt communication between <b>Cache Cleaner</b> and the Accessibility service,
+        preventing them from working as expected. Please follow the steps below:</h4>
+        1. Open <b>Settings</b> menu in the top right corner and find section <b>Show extra buttons</b>
+        <br/>
+        2. Enable option <b>Start/Stop Accessibility service</b>
+        <br/>
+        3. The next time you start <b>Cache Cleaner</b>, if the Accessibility service is running,
+        stop it by clicking <b>Stop Accessibility service</b> button.
+        Then, enable it again by clicking <b>Start Accessibility service</b> button
+    ]]></string>
+
+    <string translatable="false" name="help_icon_copyright"><![CDATA[
+        <br/>
+        <h2>Icon copyright</h2>
+        <br/>
+        <a href="https://www.flaticon.com/free-icon/broom_2954888><b>Broom icon</b> created by Smashicons - Flaticon</a>
+        <br/>
+        <br/>
+        <a href="https://github.com/bmx666/android-appcachecleaner/blob/main/LICENSE_Freepik_icon.pdf">
+        Freepik license for <b>Broom icon</b></a>
+        <br/>
+        <a href="https://github.com/bmx666/android-appcachecleaner/blob/main/LICENSE_Freepik_icon_monochrome.pdf">
+        Freepik license for monochrome <b>Broom icon</b></a>
+    ]]></string>
+
+    <string translatable="false" name="help_submit_bug_report"><![CDATA[
+        <br/>
+        <h2>Submit a bug report</h2>
+        <br/>
+        <b><a href="https://github.com/bmx666/android-appcachecleaner/issues">Github</a></b>
+    ]]></string>
+
+    <string translatable="false" name="description_accessibility_overlay_button_interrupt">Interrupt cache cleaning process</string>
+
+    <!-- Bugs -->
+    <string translatable="false" name="title_bug_322519674">Android 14 bug 322519674</string>
+    <string translatable="false" name="message_bug_322519674">
+        Opening AppInfo of any app causes an error in Android 14.
+        After opening too many AppInfo instances, the Android system goes into undefined behavior.
+        Sorry, but this dialog will be shown until Google fixes the bug in Android 14.
+    </string>
+
+    <!-- Custom package lists -->
+    <string translatable="false" name="btn_clean_custom_list_cache">Clean cache of custom list</string>
+    <string translatable="false" name="dialog_title_custom_list_add">Add custom list</string>
+    <string translatable="false" name="dialog_message_custom_list_add">Please enter a new name:</string>
+    <string translatable="false" name="dialog_title_custom_list_edit">Edit custom list</string>
+    <string translatable="false" name="dialog_message_custom_list_edit">Please select a list:</string>
+    <string translatable="false" name="dialog_title_custom_list_remove">Remove custom list</string>
+    <string translatable="false" name="dialog_message_custom_list_remove">Please select a list:</string>
+    <string translatable="false" name="dialog_title_custom_list_clean_cache">Clean cache of custom list</string>
+    <string translatable="false" name="dialog_message_custom_list_clean_cache">Please select a list:</string>
+    <string translatable="false" name="toast_custom_list_add_already_exists">The entered name already exists, please use another name</string>
+    <string translatable="false" name="toast_custom_list_add_list_empty">The list is empty, add at least one app</string>
+    <string translatable="false" name="toast_custom_list_has_been_saved">The list %1$s has been saved</string>
+    <string translatable="false" name="toast_custom_list_has_been_removed">The list %1$s has been removed</string>
+
+    <!-- Preference -->
+    <string translatable="false" name="prefs_ui">UI</string>
+    <string translatable="false" name="prefs_ui_night_mode">Dark theme</string>
+    <string translatable="false" name="prefs_title_filter_min_cache_size">Min. cache size to filter apps</string>
+    <string translatable="false" name="prefs_summary_filter_min_cache_size">Min. %1$s</string>
+    <string translatable="false" name="prefs_error_convert_filter_min_cache_size">Please enter min. cache size in KB,MB,GB,TB OR 0 to reset filter</string>
+    <string translatable="false" name="prefs_title_filter_hide_disabled_apps">Hide disabled apps</string>
+    <string translatable="false" name="prefs_title_filter_hide_ignored_apps">Hide ignored apps</string>
+    <string translatable="false" name="prefs_title_filter_show_dialog_to_ignore_app">Show dialog to ignore app</string>
+    <string translatable="false" name="prefs_title_filter_list_of_ignored_apps_edit">List of ignored apps</string>
+    <string translatable="false" name="prefs_summary_filter_list_of_ignored_apps_edit">Edit the list of ignored apps</string>
+    <string translatable="false" name="prefs_show_extra_buttons">Show extra buttons</string>
+    <string translatable="false" name="prefs_title_show_button_start_stop_service">Start/Stop Accessibility service</string>
+    <string translatable="false" name="prefs_summary_show_button_start_stop_service">For some smartphones, you need to manually start or stop the accessibility service</string>
+    <string translatable="false" name="prefs_title_show_button_close_app">Close app</string>
+    <string translatable="false" name="prefs_summary_show_button_close_app">For some smartphones, you need to manually stop the accessibility service and close the app</string>
+    <string translatable="false" name="prefs_extra_actions">Extra actions</string>
+    <string translatable="false" name="prefs_title_extra_action_stop_service">AutoStop Accessibility service</string>
+    <string translatable="false" name="prefs_summary_extra_action_stop_service">Automatically stop the Accessibility service after clearing the cache</string>
+    <string translatable="false" name="prefs_title_extra_action_close_app">AutoClose app</string>
+    <string translatable="false" name="prefs_summary_extra_action_close_app">Automatically close the app after clearing the cache</string>
+    <string translatable="false" name="prefs_custom_lists">Custom lists of apps</string>
+    <string translatable="false" name="prefs_title_custom_list_add">Add</string>
+    <string translatable="false" name="prefs_summary_custom_list_add">Add a new custom list of apps</string>
+    <string translatable="false" name="prefs_title_custom_list_edit">Edit</string>
+    <string translatable="false" name="prefs_summary_custom_list_edit">Edit an existing custom list of apps</string>
+    <string translatable="false" name="prefs_title_custom_list_remove">Remove</string>
+    <string translatable="false" name="prefs_summary_custom_list_remove">Remove an existing custom list of apps</string>
+    <string translatable="false" name="prefs_other">Other</string>
+    <string translatable="false" name="prefs_title_delay_for_next_app_timeout">Timeout between apps - %ds</string>
+    <string translatable="false" name="prefs_summary_delay_for_next_app_timeout">For older smartphones, it is advisable to increase the timeout between apps, as the Android System may cause interruptions</string>
+    <string translatable="false" name="prefs_title_max_wait_app_timeout">Max. timeout per app - %ds</string>
+    <string translatable="false" name="prefs_summary_max_wait_app_timeout">For old smartphones, you should increase the timeout because the cache size calculation can take much longer</string>
+    <string translatable="false" name="prefs_title_max_wait_clear_cache_btn_timeout">Max. timeout to wait Clear Cache button - %ds</string>
+    <string translatable="false" name="prefs_summary_max_wait_clear_cache_btn_timeout">For old smartphones, you should increase the timeout because the cache size calculation can take much longer</string>
+    <string translatable="false" name="prefs_title_scenario">Clear cache scenario</string>
+    <string-array translatable="false" name="settings_scenario_entries">
+        <item>Default</item>
+        <item>Xiaomi MIUI</item>
+    </string-array>
+    <string-array translatable="false" name="settings_scenario_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Settings keys -->
+    <string translatable="false" name="prefs_key_ui_night_mode">ui_night_mode</string>
+    <string translatable="false" name="prefs_key_filter_min_cache_size">filter_min_cache_size</string>
+    <string translatable="false" name="prefs_key_filter_hide_disabled_apps">filter_hide_disabled_apps</string>
+    <string translatable="false" name="prefs_key_filter_hide_ignored_apps">filter_hide_ignored_apps</string>
+    <string translatable="false" name="prefs_key_filter_show_dialog_to_ignore_app">filter_show_dialog_to_ignore_app</string>
+    <string translatable="false" name="prefs_key_filter_list_of_ignored_apps">filter_list_of_ignored_apps</string>
+    <string translatable="false" name="prefs_key_clear_cache">clear_cache</string>
+    <string translatable="false" name="prefs_key_storage">storage</string>
+    <string translatable="false" name="prefs_key_show_button_start_stop_service">show_button_start_stop_service</string>
+    <string translatable="false" name="prefs_key_show_button_close_app">show_button_close_app</string>
+    <string translatable="false" name="prefs_key_extra_action_stop_service">extra_action_stop_service</string>
+    <string translatable="false" name="prefs_key_extra_action_close_app">extra_action_close_app</string>
+    <string translatable="false" name="prefs_key_custom_list_add">custom_list_add</string>
+    <string translatable="false" name="prefs_key_custom_list_edit">custom_list_edit</string>
+    <string translatable="false" name="prefs_key_custom_list_remove">custom_list_remove</string>
+    <string translatable="false" name="prefs_key_settings_delay_for_next_app_timeout">settings_delay_for_next_app_timeout</string>
+    <string translatable="false" name="prefs_key_settings_max_wait_app_timeout">settings_max_wait_app_timeout</string>
+    <string translatable="false" name="prefs_key_settings_max_wait_clear_cache_btn_timeout">settings_max_wait_clear_cache_btn_timeout</string>
+    <string translatable="false" name="prefs_key_settings_scenario">settings_scenario</string>
+
+    <!-- Snackbar -->
+    <string translatable="false" name="snackbar_processing">Processing, please wait…</string>
+
+    <string name="clear_cache_btn_text">Clear cache</string>
+    <string name="clear_user_data_text">Clear storage</string>
+    <string name="storage_settings_for_app" >Storage &amp; cache</string>
+    <string name="storage_label" >Storage</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_help">Help</string>
+    <string name="filter">Filter</string>
+
+    <string translatable="false" name="debug_app_name">Cache Cleaner Debug</string>
+    <string translatable="false" name="debug_service_name">Cache Cleaner Debug</string>
+    <string translatable="false" name="debug_text_enable_write_external_storage_permission">App does not have rights to write on external storage</string>
+</resources>

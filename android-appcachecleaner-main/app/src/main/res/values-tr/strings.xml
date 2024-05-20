@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Önbellek Temizleyici</string>
+    <string name="service_name">Önbellek Temizleyici</string>
+    <string name="tile_name">Önbellek Temizleyici</string>
+    <string name="text_clean_cache_left">kalan uygulama</string>
+    <string name="text_clean_cache_finish">Önbellek temizleme bitti</string>
+    <string name="text_clean_cache_finish_display_size">Önbellek temizleme bitti\n%1$s temizlendi</string>
+    <string name="text_clean_cache_finish_processing">Önbellek temizleme bitti\nİşleniyor…</string>
+    <string name="text_clean_cache_interrupt">Önbellek temizlemeye müdahale edildi</string>
+    <string name="text_clean_cache_interrupt_display_size">Önbellek temizlemeye müdahale edildi\n%1$s temizlendi</string>
+    <string name="text_clean_cache_interrupt_processing">Önbellek temizlemeye müdahale edildi\nİşleniyor…</string>
+    <string name="btn_open_accessibility">Erişebilirlik Ayarlarını Aç</string>
+    <string name="btn_open_usage_stats">Kullanım Erişim İzni Verin</string>
+    <string name="btn_clean_all_cache">Tüm uygulamaların önbelleğini temizle</string>
+    <string name="btn_clean_system_cache">Sistem uygulamalarının önbelleğini temizle</string>
+    <string name="btn_clean_user_cache">Kullanıcı uygulamalarının önbelleğini temizle</string>
+    <string name="btn_close_app">Uygulamayı kapat</string>
+    <string name="btn_start_accessibility_service">Erişilebilirlik hizmetini başlat</string>
+    <string name="btn_stop_accessibility_service">Erişilebilirlik hizmetini durdur</string>
+    <string name="btn_add_extra_search_text">Ekstra yazı araması ekleyin</string>
+    <string name="description_apps_all_check">Tüm uygulamaları seç</string>
+    <string name="description_apps_all_uncheck">Tüm uygulamaların seçimini kaldır</string>
+    <string name="text_cache_size_fmt">Önbellek: %1$s</string>
+
+    <string name="dialog_extra_search_text_title">Ekstra yazı araması ekle</string>
+    <string name="dialog_extra_search_text_message">%1$s (%2$s)\n\"%3$s\" yerine</string>
+    <string name="dialog_extra_search_text_btn_ok">TAMAM</string>
+    <string name="dialog_extra_search_text_btn_remove">Kaldır</string>
+
+    <string name="menu_extra_search_text_title">Şunun için ekstra yazı ara:</string>
+
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Önbelleği temizle"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"Depolama alanı ve önbellek"</string>
+    <string name="storage_label" msgid="2522307545547515733">"Depolama"</string>
+    <string name="allow" msgid="3763244945363657722">"İzin ver"</string>
+    <string name="deny" msgid="7326117222944479942">"Reddet"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Ayarlar"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Yardım"</string>
+    <string name="filter" msgid="9039576690686251462">"Filtre"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Depolama alanını temizle"</string>
+
+
+
+    <string name="text_enable_accessibility_title">Erişilebilirlik Hizmetini Etkinleştir</string>
+    <string name="text_enable_usage_stats_title">Kullanım İstatistiklerini Etkinleştir</string>
+
+    <string name="btn_exit">Uygulamadan Çık</string>
+    <string name="exittip">Bu Uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="btn_yes">Evet</string>
+    <string name="btn_no">Hayır</string>
+
+    <string name="text_list_ignored_apps">Yoksayılan uygulamalar</string>
+</resources>

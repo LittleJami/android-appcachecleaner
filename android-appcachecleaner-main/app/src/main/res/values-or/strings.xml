@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"କ୍ୟାଶ୍ ଖାଲି କରନ୍ତୁ"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"ଷ୍ଟୋରେଜ୍ amp; କେଚ୍"</string>
+    <string name="storage_label" msgid="2522307545547515733">"ଷ୍ଟୋରେଜ୍‌"</string>
+    <string name="allow" msgid="3763244945363657722">"ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="deny" msgid="7326117222944479942">"ଅଗ୍ରାହ୍ୟ"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"ସେଟିଙ୍ଗ"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"ସହାୟତା"</string>
+    <string name="filter" msgid="9039576690686251462">"ଫିଲ୍ଟର୍"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"ଷ୍ଟୋରେଜ୍‌ ଖାଲି କରନ୍ତୁ"</string>
+</resources>
